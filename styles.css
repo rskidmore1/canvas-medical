@@ -1,0 +1,190 @@
+.container{
+  max-width: 900px;
+  margin: 0 2rem;
+}
+
+img{
+  width: 100%;
+}
+
+p, h2 {
+  color: #6E6E6E;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+
+
+
+.row{
+  display: flex;
+}
+
+.right-align{
+  display: block;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.right-align-2{
+  margin-left: 10px;
+}
+
+
+.center{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column-50{
+  width: 50%;
+}
+
+.column-25{
+  width: 25%;
+}
+
+.center-text{
+  text-align: center;
+}
+
+.margin-top-1{
+  margin-top: 1rem;
+}
+
+
+.margin-top-2{
+  margin-top: 2rem;
+}
+
+.margin-top-3{
+  margin-top: 3rem;
+}
+
+.margin-bottom-1{
+  margin-bottom: 1rem;
+}
+.padding-left-5{
+  padding-left: 5rem;
+}
+
+.padding-right-5{
+  padding-right: 5rem;
+}
+
+
+.margin-left-1{
+  margin-left: 2rem;
+}
+
+.nav-a > a{
+  margin: 0 0.5rem;
+
+}
+
+.bottom-line{
+  border-bottom: 1px grey solid;
+  width: 100%;
+}
+
+
+.image{
+    background-image: url("./images/hero.jpg");
+    /* background-size: contain; */
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    height: inherit !important;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.blue-background{
+  background-color: #294464;
+}
+
+.contact-us-padding{
+  padding: 0.5rem 0.7rem;
+}
+.rounded{
+  border-radius: 5px;
+}
+
+.light-grey-text{
+  color: #B6B6B6;
+}
+
+.grey-text {
+  color: #6E6E6E;
+}
+
+.white-text {
+  color: white
+}
+
+
+.getting-started-padding{
+  padding: 1rem 2rem;
+}
+
+.white-text > a {
+  color: white;
+}
+
+
+.light-gray-background{
+  background-color: #FAFAFA;
+}
+
+
+.locations-bottom-border{
+  border-bottom: 1px solid #E7E9EC;
+}
+
+.address-background-color{
+  background-color: #525351;
+}
+.no-dec{
+  list-style: none;
+}
+header{
+  padding: 0;
+}
+
+.logo-size{
+  height: 1.5rem;
+  width: auto;
+}
+
+
+.product-header{
+    background-image: url("./images/product/product-header.jpg");
+    background-size: 100% 100%;
+    max-width: inherit;
+    height: 400px;
+    position: relative;
+}
+
+.product-overlay{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.2);
+}
+
+
+.image-text{
+  position: absolute;
+}
+
+.logo-div{
+ display: flex;
+ align-items: left ;
+}
